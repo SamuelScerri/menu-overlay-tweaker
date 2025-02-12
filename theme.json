@@ -14,7 +14,10 @@
 			"values": {
 				"Yes": {
 					"fullscreen.css": [
-						"MainMenu"
+						"MainMenu",
+						"SP",
+						"QuickAccess",
+						"SteamLibraryWindow|Steam"
 					]
 				},
 				"No": {}
@@ -27,34 +30,54 @@
 			"values": {
 				"Instant": {
 					"instant.css": [
-						"MainMenu"
+						"MainMenu",
+						"SP",
+						"QuickAccess",
+						"SteamLibraryWindow|Steam"
 					]
 				},
 				"2x": {
 					"transition.css": [
-						"MainMenu"
+						"MainMenu",
+						"SP",
+						"SteamLibraryWindow|Steam",
+						"QuickAccess"
 					],
 					"--transition-duration": [
 						"2",
-						"MainMenu"
+						"SP",
+						"QuickAccess",
+						"MainMenu",
+						"SteamLibraryWindow|Steam"
 					]
 				},
 				"3x": {
 					"transition.css": [
-						"MainMenu"
+						"MainMenu",
+						"SP",
+						"QuickAccess"
 					],
 					"--transition-duration": [
 						"3",
-						"MainMenu"
+						"MainMenu",
+						"SP",
+						"QuickAccess",
+						"SteamLibraryWindow|Steam"
 					]
 				},
 				"4x": {
 					"transition.css": [
-						"MainMenu"
+						"MainMenu",
+						"SP",
+						"SteamLibraryWindow|Steam",
+						"QuickAccess"
 					],
 					"--transition-duration": [
 						"4",
-						"MainMenu"
+						"SP",
+						"MainMenu",
+						"QuickAccess",
+						"SteamLibraryWindow|Steam"
 					]
 				}
 			},
