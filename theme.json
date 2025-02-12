@@ -1,0 +1,64 @@
+{
+	"name": "Menu/Overlay Tweaker",
+	"author": "Samuel Scerri",
+	"target": "Tweak",
+	"version": "v1.0",
+	"description": "Various options to customize menu and in-game overlay",
+	"manifest_version": 5,
+	"inject": {},
+	"dependencies": {},
+	"patches": {
+		"Fullscreen": {
+			"type": "checkbox",
+			"default": "No",
+			"values": {
+				"Yes": {
+					"fullscreen.css": [
+						"MainMenu"
+					]
+				},
+				"No": {}
+			},
+			"components": []
+		},
+		"Transition": {
+			"type": "slider",
+			"default": "Instant",
+			"values": {
+				"Instant": {
+					"instant.css": [
+						"MainMenu"
+					]
+				},
+				"2x": {
+					"transition.css": [
+						"MainMenu"
+					],
+					"--transition-duration": [
+						"2",
+						"MainMenu"
+					]
+				},
+				"3x": {
+					"transition.css": [
+						"MainMenu"
+					],
+					"--transition-duration": [
+						"3",
+						"MainMenu"
+					]
+				},
+				"4x": {
+					"transition.css": [
+						"MainMenu"
+					],
+					"--transition-duration": [
+						"4",
+						"MainMenu"
+					]
+				}
+			},
+			"components": []
+		}
+	}
+}
