@@ -2,6 +2,9 @@
 	"name": "Menu/Overlay Tweaker",
 	"author": "Samuel Scerri",
 	"target": "Tweak",
+	"flags": [
+		"REQUIRE_NAV_PATCH"
+	],
 	"version": "v1.0",
 	"description": "Menu/Overlay Tweaker",
 	"manifest_version": 5,
