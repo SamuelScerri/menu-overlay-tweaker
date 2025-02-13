@@ -3,6 +3,17 @@
 .Panel,
 .Focusable,
 .gpfocuswithin {
-    margin-top: 0;
-    margin-bottom: 0;
+    margin-bottom: 0 !important;
+    margin-top: 0 !important;
+    transition-property: transform !important;
+    transition-duration: 300ms !important;
+    transition-timing-function: cubic-bezier(0, 0, 0, 1) !important;
+    will-change: transform !important;
+}
+
+.sfthxkhui6WSgvnbllI_n,
+._37a8dECtfsuIJDxkCZuNNg,
+._3iEm9LzlOoh8dkVkWV5Ep- {
+    margin-bottom: 0 !important;
+    margin-top: 0 !important;
 }

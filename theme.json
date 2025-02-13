@@ -3,7 +3,7 @@
 	"author": "Samuel Scerri",
 	"target": "Tweak",
 	"version": "v1.0",
-	"description": "Various options to customize menu and in-game overlay",
+	"description": "Menu/Overlay Tweaker",
 	"manifest_version": 5,
 	"inject": {},
 	"dependencies": {},
@@ -14,72 +14,23 @@
 			"values": {
 				"Yes": {
 					"fullscreen.css": [
-						"MainMenu",
-						"SP",
-						"QuickAccess",
-						"SteamLibraryWindow|Steam"
+						"MainMenu"
 					]
 				},
 				"No": {}
 			},
 			"components": []
 		},
-		"Transition": {
-			"type": "slider",
-			"default": "Instant",
+		"Hide Overlay": {
+			"type": "checkbox",
+			"default": "No",
 			"values": {
-				"Instant": {
-					"instant.css": [
-						"MainMenu",
-						"SP",
-						"QuickAccess",
-						"SteamLibraryWindow|Steam"
+				"Yes": {
+					"hideoverlay.css": [
+						"MainMenu"
 					]
 				},
-				"2x": {
-					"transition.css": [
-						"MainMenu",
-						"SP",
-						"SteamLibraryWindow|Steam",
-						"QuickAccess"
-					],
-					"--transition-duration": [
-						"2",
-						"SP",
-						"QuickAccess",
-						"MainMenu",
-						"SteamLibraryWindow|Steam"
-					]
-				},
-				"3x": {
-					"transition.css": [
-						"MainMenu",
-						"SP",
-						"QuickAccess"
-					],
-					"--transition-duration": [
-						"3",
-						"MainMenu",
-						"SP",
-						"QuickAccess",
-						"SteamLibraryWindow|Steam"
-					]
-				},
-				"4x": {
-					"transition.css": [
-						"MainMenu",
-						"SP",
-						"SteamLibraryWindow|Steam",
-						"QuickAccess"
-					],
-					"--transition-duration": [
-						"4",
-						"SP",
-						"MainMenu",
-						"QuickAccess",
-						"SteamLibraryWindow|Steam"
-					]
-				}
+				"No": {}
 			},
 			"components": []
 		}
