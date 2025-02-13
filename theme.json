@@ -11,7 +11,7 @@
 	"inject": {},
 	"dependencies": {},
 	"patches": {
-		"Fullscreen": {
+		"Fullscreen Menu": {
 			"type": "checkbox",
 			"default": "No",
 			"values": {
@@ -34,6 +34,45 @@
 					]
 				},
 				"No": {}
+			},
+			"components": []
+		},
+		"Menu Transition": {
+			"type": "slider",
+			"default": "1x",
+			"values": {
+				"Instant": {
+					"instant.css": [
+						"MainMenu"
+					]
+				},
+				"1x": {
+					"transition.css": [
+						"MainMenu"
+					],
+					"--transition-multiplier": [
+						"1",
+						"MainMenu"
+					]
+				},
+				"2x": {
+					"transition.css": [
+						"MainMenu"
+					],
+					"--transition-multiplier": [
+						"2",
+						"MainMenu"
+					]
+				},
+				"3x": {
+					"transition.css": [
+						"MainMenu"
+					],
+					"--transition-multiplier": [
+						"3",
+						"MainMenu"
+					]
+				}
 			},
 			"components": []
 		}
